@@ -1,0 +1,179 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-08T19:33:08.289Z",
+        "line": 4,
+        "name": "Achat de produit",
+        "description": "",
+        "id": "test-techique-automatisation;achat-de-produit",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5450675600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Naviguer  se rend sur l\u0027url \"http://shop.demoqa.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://shop.demoqa.com/\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdefinitions.DemogaStep.naviguer_se_rend_sur_l_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5341063600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Choisir n’importe quel article et le sélectionner",
+            "match": {
+              "location": "stepdefinitions.DemogaStep.choisir_n_importe_quel_article_et_le_sélectionner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2807764100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Choisir une option couleur (Color) et une option taille (Size)",
+            "match": {
+              "location": "stepdefinitions.DemogaStep.choisir_une_option_couleur_Color_et_une_option_taille_Size()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 878315800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Cliquer sur le bouton ADD TO CART",
+            "match": {
+              "location": "stepdefinitions.DemogaStep.cliquer_sur_le_bouton_ADD_TO_CART()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174950100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Un message de succès doit s’afficher : “article_name” has been added to your cart",
+            "match": {
+              "location": "stepdefinitions.DemogaStep.un_message_de_succès_doit_s_afficher_article_name_has_been_added_to_your_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2716387700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Cliquer ensuite sur le bouton « View cart »",
+            "match": {
+              "location": "stepdefinitions.DemogaStep.cliquer_ensuite_sur_le_bouton_View_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47875800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "L’article doit se rajouter dans le panier, et le total de prix doit s’afficher dans le panier en haut.",
+            "match": {
+              "location": "stepdefinitions.DemogaStep.l_article_doit_se_rajouter_dans_le_panier_et_le_total_de_prix_doit_s_afficher_dans_le_panier_en_haut()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 970963500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Cliquer sur le bouton « Proceed to checkout »",
+            "match": {
+              "location": "stepdefinitions.DemogaStep.cliquer_sur_le_bouton_Proceed_to_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62152200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Un formulaire de payement doit s’afficher",
+            "match": {
+              "location": "stepdefinitions.DemogaStep.un_formulaire_de_payement_doit_s_afficher()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1694032800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Remplir tous les champs obligatoires du formulaire à savoir le nom, le prénom, le pays, l’adresse, le numéro de téléphone, l’adresse mail, et cocher la case « I HAVE READ AND AGREE TO THE WEBSITE TERMS AND CONDITIONS »",
+            "match": {
+              "location": "stepdefinitions.DemogaStep.remplir_tous_les_champs_obligatoires_du_formulaire_à_savoir_le_nom_le_prénom_le_pays_l_adresse_le_numéro_de_téléphone_l_adresse_mail_et_cocher_la_case_I_HAVE_READ_AND_AGREE_TO_THE_WEBSITE_TERMS_AND_CONDITIONS()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80191300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Cliquer ensuite sur le bouton «PLACE ORDER »",
+            "match": {
+              "location": "stepdefinitions.DemogaStep.cliquer_ensuite_sur_le_bouton_PLACE_ORDER()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1670168000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Un message de succès doit s’afficher avec les détails de la commande d’achat.",
+            "match": {
+              "location": "stepdefinitions.DemogaStep.un_message_de_succès_doit_s_afficher_avec_les_détails_de_la_commande_d_achat()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demoga"
+          }
+        ]
+      }
+    ],
+    "name": "Test Techique Automatisation",
+    "description": "",
+    "id": "test-techique-automatisation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Demoga.feature",
+    "tags": []
+  }
+]
