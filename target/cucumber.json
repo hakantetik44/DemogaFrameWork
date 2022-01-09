@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-01-09T11:59:01.661Z",
+        "start_timestamp": "2022-01-09T08:36:27.039Z",
         "line": 4,
         "name": "Achat de produit",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4027418500,
+              "duration": 5991160000,
               "status": "passed"
             },
             "line": 5,
@@ -31,7 +31,7 @@
           },
           {
             "result": {
-              "duration": 1172415100,
+              "duration": 5947742600,
               "status": "passed"
             },
             "line": 6,
@@ -43,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 2377635600,
+              "duration": 2381752700,
               "status": "passed"
             },
             "line": 7,
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 771178500,
+              "duration": 842840300,
               "status": "passed"
             },
             "line": 8,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 109745100,
+              "duration": 52748500,
               "status": "passed"
             },
             "line": 9,
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 2654753600,
+              "duration": 2719149500,
               "status": "passed"
             },
             "line": 10,
@@ -91,7 +91,7 @@
           },
           {
             "result": {
-              "duration": 60836200,
+              "duration": 51540900,
               "status": "passed"
             },
             "line": 11,
@@ -103,7 +103,7 @@
           },
           {
             "result": {
-              "duration": 1014958700,
+              "duration": 2109841500,
               "status": "passed"
             },
             "line": 12,
@@ -115,8 +115,9 @@
           },
           {
             "result": {
-              "duration": 54853000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath\u003d//h3[text()\u003d\u0027Billing details\u0027]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-B1QTINT\u0027, ip: \u0027192.168.1.73\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.13\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.isDisplayed(Unknown Source)\r\n\tat stepdefinitions.DemogaStep.un_formulaire_de_payement_doit_s_afficher(DemogaStep.java:96)\r\n\tat ✽.Un formulaire de payement doit s’afficher(file:///C:/Users/ASUS/IdeaProjects/DemogaFrameWork/src/test/resources/features/Demoga.feature:13)\r\n",
+              "duration": 10083234800,
+              "status": "failed"
             },
             "line": 13,
             "name": "Un formulaire de payement doit s’afficher",
@@ -127,8 +128,8 @@
           },
           {
             "result": {
-              "duration": 1768092200,
-              "status": "passed"
+              "duration": 997400,
+              "status": "skipped"
             },
             "line": 14,
             "name": "Remplir tous les champs obligatoires du formulaire à savoir le nom, le prénom, le pays, l’adresse, le numéro de téléphone, l’adresse mail, et cocher la case « I HAVE READ AND AGREE TO THE WEBSITE TERMS AND CONDITIONS »",
@@ -139,8 +140,7 @@
           },
           {
             "result": {
-              "duration": 79800100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "Cliquer ensuite sur le bouton «PLACE ORDER »",
@@ -151,8 +151,7 @@
           },
           {
             "result": {
-              "duration": 1814542200,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "Un message de succès doit s’afficher avec les détails de la commande d’achat.",

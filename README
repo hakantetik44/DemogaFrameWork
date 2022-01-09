@@ -4,3 +4,4 @@
 *j'ai utilisé pour maven version  compiler java version 11
 *J'ai ajouté quelques plugins sur la page du runner  pour obtenir des rapports.
 *Dans le fichier pom.xml, j'ai ajouté de nombreuses dependency au Maven repository pour l'installation de mon Framework.
+*J'ai utilisé Oop pour appeler les données du dossier du driver et des pages dans le projet.
