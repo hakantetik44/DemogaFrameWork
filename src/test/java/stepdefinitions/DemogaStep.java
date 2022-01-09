@@ -65,7 +65,7 @@ public class DemogaStep {
     public void un_message_de_succès_doit_s_afficher_article_name_has_been_added_to_your_cart() {
 
         Assert.assertTrue(demogaPage.articleName.isDisplayed());
-        System.out.println("Un message succes   :  " + demogaPage.articleName.getText());
+
 
     }
 
@@ -83,8 +83,8 @@ public class DemogaStep {
     }
 
     @Given("Cliquer sur le bouton « Proceed to checkout »")
-    public void cliquer_sur_le_bouton_Proceed_to_checkout() {
-
+    public void cliquer_sur_le_bouton_Proceed_to_checkout() throws InterruptedException {
+         Thread.sleep(2000);
         action.sendKeys(Keys.PAGE_DOWN).build().perform();
         demogaPage.buttonProceed.click();
 

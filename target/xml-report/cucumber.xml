@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="22.115">
-    <testcase classname="Test Techique Automatisation" name="Achat de produit" time="21.966">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="21.424">
+    <testcase classname="Test Techique Automatisation" name="Achat de produit" time="21.263">
         <system-out>
             <![CDATA[Given Naviguer  se rend sur l'url "http://shop.demoqa.com/".................passed
 And Choisir n’importe quel article et le sélectionner.......................passed
